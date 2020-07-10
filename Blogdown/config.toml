@@ -19,11 +19,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Projects"
     url = "/projects/"
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "Alumni"
+    url = "/alumni/"
 
 [params]
-    description = "Learning R and Github"
+    description = "Eagle IO Blogdown"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
