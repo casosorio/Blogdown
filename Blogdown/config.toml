@@ -16,11 +16,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-[[menu.main]]
     name = "Alumni"
-    url = "/alumni/"
+    url = "/Alumni/"
+[[menu.main]]
+    name = "Contact Us"
+    url = "/contact/"
 
 [params]
     description = "Eagle IO Blogdown"
