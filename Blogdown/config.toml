@@ -1,45 +1,67 @@
-baseurl = "/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Eagle IO"
-theme = "hugo-lithium"
-googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-    
-[[menu.main]]
-    name = "Main"
-    url = "/main/"
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "Who We Are"
-    url = "/who/"
-[[menu.main]]
-    name = "Contact Us"
-    url = "/contact/"
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
+# Navbar Menus
+[[menu.main]]
+name    = "Main"
+url     = "main"
+weight  = 2
+[[menu.main]]
+name    = "About"
+url     = "about"
+weight  = 3
+[[menu.main]]
+name    = "Who we are"
+url     = "who"
+weight  = 4
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 5
+
+# Site Params
 [params]
-    description = "Eagle IO Blogdown"
+home = "Home"
+logo = "images/eagleio2.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "Eagle I/O Consultant"
+description = "STUDENT LED CONSULTING GROUP"
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
+# flip text
+[[params.banner.flipText]]
+title   = "Student"
+[[params.banner.flipText]]
+title   = "Consultant"
+[[params.banner.flipText]]
+title   = "Innovator"
 
-    [params.logo]
-    url = "eagleio2.png"
-    width = 50
-    height = 50
-    alt = "Logo"
 
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"
