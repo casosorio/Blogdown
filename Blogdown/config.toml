@@ -7,25 +7,22 @@ theme = "timer-hugo"
 
 # Navbar Menus
 [[menu.main]]
-name    = "About"
-url     = "about"
+name    = "Main"
+url     = "main"
 weight  = 2
 [[menu.main]]
-name    = "Service"
-url     = "service"
+name    = "About"
+url     = "about"
 weight  = 3
 [[menu.main]]
-name    = "Gallery"
-url     = "gallery"
+name    = "Who we are"
+url     = "who"
 weight  = 4
-[[menu.main]]
-name    = "Blog"
-url     = "blog"
-weight  = 5
 [[menu.main]]
 name    = "Contact"
 url     = "contact"
-weight  = 6
+weight  = 5
+
 
 # Site Params
 [params]
@@ -44,8 +41,8 @@ contactFormAction = "#" # contact form works with https://formspree.io
 [params.banner]
 enable  = true
 bgImage = "images/slider.jpg"
-heading = "HI, MY NAME IS JONATHON & I AM A"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+heading = "Eagle IO"
+description = ""
 # button
 btn     = true
 btnText = "Download More"
@@ -53,24 +50,24 @@ btnURL  = "https://themefisher.com/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "DESIGNER"
+title   = "Student"
 [[params.banner.flipText]]
-title   = "DEVELOPER"
+title   = "Consultatn"
 [[params.banner.flipText]]
-title   = "FATHER"
+title   = "Innovator"
 
 # Homepage About Section
 [params.about]
 enable  = true
 title   = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+content = "Student Led Consultant""
 image   = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
 enable  = true
-title   = "SO WHAT YOU THINK ?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+title   = "Eagle IO"
+content = ""
 btnText = "Contact with me"
 btnURL  = "/contact"
 
