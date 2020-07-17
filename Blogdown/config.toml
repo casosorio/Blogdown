@@ -58,8 +58,8 @@ title   = "Consultant"
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+title   = "ABOUT US"
+content = "We are a student led consulting group composed of graduate students completing their masters degree in IO Psychology at Montclair State University."
 image   = "images/about/about.jpg"
 
 # Call to Action
