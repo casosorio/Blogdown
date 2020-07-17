@@ -26,7 +26,7 @@ weight  = 5
 # Site Params
 [params]
 home = "Home"
-logo = "images/eagleio2.png"
+logo = "image/eagleio2.png"
 dateFormat = "6 January 2006"
 # Meta data
 description = "Airspace Hugo theme"
