@@ -7,8 +7,8 @@ theme = "timer-hugo"
 
 # Navbar Menus
 [[menu.main]]
-name    = "About"
-url     = "about"
+name    = "Main"
+url     = "main"
 weight  = 2
 [[menu.main]]
 name    = "Service"
