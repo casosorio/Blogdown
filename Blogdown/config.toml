@@ -11,26 +11,22 @@ name    = "Main"
 url     = "main"
 weight  = 2
 [[menu.main]]
-name    = "Service"
-url     = "service"
+name    = "About"
+url     = "about"
 weight  = 3
 [[menu.main]]
-name    = "Gallery"
-url     = "gallery"
+name    = "Who We Are"
+url     = "who"
 weight  = 4
-[[menu.main]]
-name    = "Blog"
-url     = "blog"
-weight  = 5
 [[menu.main]]
 name    = "Contact"
 url     = "contact"
-weight  = 6
+weight  = 5
 
 # Site Params
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/eagleio2.png"
 dateFormat = "6 January 2006"
 # Meta data
 description = "Airspace Hugo theme"
@@ -44,8 +40,8 @@ contactFormAction = "#" # contact form works with https://formspree.io
 [params.banner]
 enable  = true
 bgImage = "images/slider.jpg"
-heading = "HI, MY NAME IS JONATHON & I AM A"
-description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+heading = "Eagle I/O Consulting"
+description = "Student Led Consulting Group"
 # button
 btn     = true
 btnText = "Download More"
@@ -53,11 +49,11 @@ btnURL  = "https://themefisher.com/"
 
 # flip text
 [[params.banner.flipText]]
-title   = "DESIGNER"
+title   = "Student"
 [[params.banner.flipText]]
-title   = "DEVELOPER"
+title   = "Innovator"
 [[params.banner.flipText]]
-title   = "FATHER"
+title   = "Consultant"
 
 # Homepage About Section
 [params.about]
